@@ -2,6 +2,8 @@
 
 Responsive ReactJS weather dashboard using Open-Meteo APIs with browser geolocation.
 
+Live URL (GitHub Pages): `https://sanchi1905.github.io/WeatherDashboard/`
+
 ## Live Requirements Covered
 
 - Auto-detect user location through browser GPS on first load.
@@ -47,3 +49,8 @@ npm run preview
 - Vercel
 - Netlify
 - GitHub Pages (with Vite static output)
+
+## GitHub Pages Deployment
+
+- This repository includes a workflow at `.github/workflows/deploy.yml`.
+- Every push to `main` builds and deploys the site to GitHub Pages.
